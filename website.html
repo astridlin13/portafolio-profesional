@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Portafolio de Astrid Nohely Rivera Linares">
+<meta property="og:description" content="Conoce los proyectos, habilidades y formación académica de Astrid Rivera Linares.">
+<meta property="og:image" content="https://astridlinares-web.netlify.app/imagenes/chimu.jpg">
+<meta property="og:url" content="https://astridlinares-web.netlify.app/">
+<meta property="og:logo" content="https://astridlinares-web.netlify.app/imagenes/chimu.jpg">
+<meta property="og:type" content="website">
+
+<title>Portafolio de Astrid Nohely Rivera Linares</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#F5F5DC;
+    color:#2F3E2F;
+}
+
+
+header{
+    background:linear-gradient(135deg,#556B2F,#6B8E23);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+    margin-top:5px;
+}
+
+.foto{
+    width:250px;
+    display:block;
+    margin:25px auto;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.20);
+}
+
+/* CONTENEDOR */
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+/* GRID DE TARJETAS */
+
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+/* TARJETAS */
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    color:#556B2F;
+    margin-bottom:15px;
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#556B2F;
+    color:white;
+}
+
+th,td{
+    border:1px solid #d8d8d8;
+    padding:10px;
+    text-align:center;
+}
+
+.proyectos{
+    margin-top:30px;
+}
+
+.proyectos h2{
+    text-align:center;
+    color:#556B2F;
+    margin-bottom:25px;
+}
+
+.proyectos-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.proyecto{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    text-align:center;
+    transition:0.3s;
+}
+
+.proyecto:hover{
+    transform:translateY(-5px);
+}
+
+.proyecto h3{
+    color:#556B2F;
+    margin-bottom:15px;
+}
+
+.boton{
+    display:inline-block;
+    margin-top:15px;
+    background:#556B2F;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.boton:hover{
+    background:#6B8E23;
+}
+
+footer{
+    background:#556B2F;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .proyectos-grid{
+        grid-template-columns:1fr;
+    }
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .foto{
+        width:200px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Astrid Nohely Rivera Linares</h1>
+
+    <p>
+        Estudiante de Ingeniería en Ciencias de la Computación
+    </p>
+
+    <img src="imagenes/descarga (2).jpg" alt="Astrid Rivera Linares" class="foto">
+
+</header>
+
+<div class="container">
+
+    <div class="grid">
+
+        <section class="card">
+
+            <h2>Sobre mi</h2>
+
+            <p>
+                Soy Astrid Nohely Rivera Linares, estudiante de Ingeniería en Ciencias de la Computación, 
+                graduada como Bachiller Técnico Contador, estas formaciones me han permitido desarrollar habilidades de análisis, 
+                organización y pensamiento crítico para la resolución de problemas.
+                Asimismo, he fortalecido competencias como el trabajo en equipo, la responsabilidad y la comunicación efectiva.
+                Actualmente estoy iniciando en el desarrollo web, aprendiendo acerca de diversas herramientas que me permitan crear soluciones funcionales, atractivas e innovadoras para los usuarios.
+                Me considero una persona comprometida con el aprendizaje continuo, con iniciativa para enfrentar nuevos retos y con interés en seguir fortaleciendo mis habilidades técnicas
+                y profesionales dentro del área tecnológica. 
+            </p>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Estudios</h2>
+            
+            <p>• Ingeniería en Ciencias de la Computación </p>
+            <p>  Universidad Don Bosco | Primer año | Actualmente </p>
+
+            <br>
+
+            <p>• Bachillerato Técnico Contador </p>
+            <p>  Liceo Cristiano Rvdo. Juan Bueno La Coruña | Finalizado | 2023 - 2025 </p>
+
+            <br> 
+            <p>• Curso de Desarrollo Web FrontEnd </p>
+            <p>  CFP Ciudadela Don Bosco | Actualmente </p> 
+
+        </section>
+
+        <section class="card">
+
+            <h2> Experiencia laboral</h2>
+
+            <p>
+                Realicé mis prácticas profesionales en el Banco de los
+                Trabajadores Salvadoreños en 2025, me desempeñe en el area de Contaduria y Recursos Humanos, en donde tuve la oportunidad
+                de aprender mas del rubro de administracion y herramientas digitales para optimizar procesos contables.
+                Asimismo, fortaleci habilidades como adaptarme a nuevas experiencias, resolucion de problemas bajo presion y a tener un mayor compromiso con mis metas laborales. 
+            </p>
+
+        </section>
+
+        <section class="card">
+
+            <h2> Habilidades Aprendidas </h2>
+
+            <table>
+
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                    <th>Descripcion</th>
+                </tr>
+
+                <tr>
+                    <td>Logica de programación</td>
+                    <td>intermedio</td>
+                    <td>Resolucion de problemas mediante algoritmos, validaciones y estucturas de control</td>
+                </tr>
+
+                <tr>
+                    <td>C#</td>
+                    <td>Intermedio</td>
+                    <td>Desarrollo de aplicaciones de consola orientadas a calculos matematicos, menus interactivos y gestion de datos</td>
+                </tr>
+
+                <tr>
+                    <td>HTML 5 Semantico</td>
+                    <td>Basico</td>
+                    <td>Creacion de estructuras web utilizando etiquetas semanticas </td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </div>
+
+    <section class="proyectos">
+
+        <h2> Mis Proyectos</h2>
+
+        <div class="proyectos-grid">
+
+            <div class="proyecto">
+
+                <h3> Sistema de Formularios Web</h3>
+
+                <p>
+                    Proyecto académico enfocado en la creación de formularios
+                    utilizando HTML.
+                </p>
+
+                <a href="https://astridlinares.netlify.app/" class="boton">
+                    Ver Proyecto
+                </a>
+
+            </div>
+
+            <div class="proyecto">
+
+                <h3>Sistema de Gestion de Inventario </h3>
+
+                <p>
+                    Sistema de inventario desarrollado en C# mediante una aplicación
+                    de consola. El proyecto permite administrar productos mediante
+                    operaciones de registro, consulta, venta, modificación y eliminación
+                    de información almacenada en archivos de texto.
+                </p>
+
+                <a href="https://astridlinares-pro.netlify.app/" class="boton">
+                    Ver Proyecto
+                </a>
+
+            </div>
+
+             <div class="proyecto">
+
+                <h3> La Inteligencia Artificial como Herramienta de Apoyo</h3>
+
+                <p>
+                    Website donde se indica sobre como es debido utilizar la IA para optimizar algunos 
+                    procedimientos basicos y a mejorar el autoaprendizaje de los usuarios.
+                    
+                </p>
+
+                <a href="https://astridlin-ia.netlify.app/" class="boton">
+                    Ver Proyecto
+                </a>
+
+        </div>
+
+    </section>
+
+    <section class="card" style="margin-top:30px;">
+
+        <h2> ¿Por qué deberian contratarme? </h2>
+
+        <p>
+           Deberían considerarme porque soy una persona comprometida con mi formación,
+           con capacidad de aprendizaje, responsabilidad y disposición para enfrentar
+           nuevos desafíos. Busco constantemente mejorar mis habilidades técnicas y
+           personales, aportando dedicación, trabajo en equipo y una actitud positiva
+           en cada proyecto que realizo.
+        </p>
+
+    </section>
+
+</div>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a336d0145840f1d49424ffb/1jrce3k0b';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script--> 
+
+<footer>
+
+    © 2026 Astrid Nohely Rivera Linares | Portafolio Personal
+
+</footer>
+
+</body>
+</html>
